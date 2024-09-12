@@ -1,0 +1,143 @@
+
+/* Main app background and text color */
+.main {background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+        color: #333; 
+        align-items: center;
+        width: 10000px;
+        margin-top: 5px}
+/* General styling */
+body {
+    background: linear-gradient(135deg, #e0f7fa, #80deea, #b3e5fc);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #010910;
+}
+
+/* Title and header styling Urban Planning*/
+h1 {
+    color: #121111;
+    text-align: center;
+    -webkit-text-fill-color: black;
+    font-size: 3em;
+}
+
+/* Styling for section headers */
+h3 {
+    color: rgb(3, 2, 2);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    color: #070707;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Compact grid layout for displaying images */
+.compact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-folder {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.image-folder img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-folder img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styling */
+button {
+    background: linear-gradient(90deg, #33ccff, #1a75ff, #004d99);
+    border: #004d99;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: rgb(2, 18, 18);
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg,  #1a75ff, #33ccff);
+    box-shadow: 0 5px 10px rgba(22, 22, 22, 0.993);
+}
+
+/* Text input styling */
+.stTextInput > div > input {
+    background: linear-gradient(120deg, #e6f2ff, #b3e0ff);
+    border-radius: 10px;
+    padding: 15px; /* Adjust padding for larger input area */
+    border: 1px solid #004d99;
+    color: #0d0f12;
+    font-size: 1.2em; /* Increase font size for better readability */
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Include padding and border in element’s total width and height */
+}
+
+/* File uploader styling */
+.stFileUploader > div {
+    
+    border-radius: 30px;
+    width: 100%;
+    padding:1px;
+    max-width: 500px; /* Adjust as needed */
+    margin-bottom: 20px;
+    color: #0b4ee0;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* Gradient for links */
+a {
+    color: #070808;
+    background: linear-gradient(120deg, #1a75ff, #33ccff);
+   
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Download button styling */
+.stDownloadButton > button {
+    background: linear-gradient(90deg, #33ccff, #1a75ff, #004d99);
+    border-radius: 20px;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s;
+}
+
+.stDownloadButton > button:hover {
+    background: linear-gradient(90deg, #004d99, #1a75ff, #33ccff);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+footer {
+    background-color: #ece4e4ae;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
